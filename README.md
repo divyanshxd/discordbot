@@ -1,1 +1,1 @@
-# studybot
+# discordbot
