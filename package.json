@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.5.0",
+    "indomitable": "^4.1.0",
+    "module-alias": "^2.2.3"
+  },
+  "scripts": {
+  "start": "ts-node clusters.ts",
+  "build": "tsc",
+  "serve": "node dist/index.js"
+},
+  "_moduleAliases": {
+    "@config": "src/configs",
+    "@structure": "src/structure"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
