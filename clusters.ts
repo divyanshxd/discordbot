@@ -34,8 +34,7 @@ const options: IndomitableOptions = {
 };
 
 const manager = new Indomitable(options).on("error", console.error).on("debug", (d: string) => {
-    if (d.includes("eval")) return;
-    console.log(`[ClusterHandler] :`.blue.dim + d.blue);
+    console.log(`[indomitable] :`.blue.dim + d.blue);
   });
 
 manager.spawn();
